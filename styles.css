@@ -1,0 +1,102 @@
+*{
+    font-family: Inter;
+   
+}
+body{
+    background-color: #111111;
+}
+
+.fname{
+    color: #FF2A4D;
+    font-size: 5em;
+    font-weight: 700;
+}
+.lname{
+    color: #EEEEEE;
+    font-size: 5em;
+    font-weight: 700;
+}
+
+.wrapper-title{
+    /* display: grid;
+    place-items: center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.subtitle{
+    display: grid;
+    place-items: center;
+    font-size: 1.5em;
+    color: #EEEEEE;
+ 
+}
+
+.project-subtitle{
+    font-size: 1em;
+}
+
+.blue-color{
+    color: #2ABFFF;
+}
+.center-text{
+    display: grid;
+    place-items: center;
+}
+
+.link-format{
+    color: #EEEEEE;
+
+}
+
+.quote{
+    font-size: 1em;
+}
+
+.profile-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 50px;
+    /* border: 2px solid #EEEEEE */
+}
+
+
+
+.text-box{
+    max-width: 800px;
+}
+
+.margin-add{
+    margin-top: 20px;
+}
+@media screen and (max-width:700px){
+    .wrapper-title{
+    display: grid;
+    place-items: center;
+    font-size: 2vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .subtitle{
+        display: grid;
+        place-items: center;
+        font-size: 4vw;
+        color: #EEEEEE;
+        padding-left: 10px;
+        padding-right: 10px;
+     
+    }
+    .profile-pic{
+        display: grid;
+        place-items: center;
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+}

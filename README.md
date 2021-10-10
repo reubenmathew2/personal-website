@@ -1,3 +1,3 @@
-# digital-resume
-A simple static website to function as a digital resume. (under development)
+# personal-website
+A simple static personal webpage. (under development)
 http://reubenmathew.me/

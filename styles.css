@@ -14,10 +14,6 @@ body{
     
 }
 
-header{
-    /* font-family: 'DM Serif Display'; */
-    
-}
 
 
 
@@ -51,8 +47,13 @@ header{
  
 }
 
+
 .project-subtitle{
     font-size: 1em;
+}
+
+.emilda{
+    display: inline;
 }
 
 .blue-color{
@@ -61,6 +62,7 @@ header{
 .center-text{
     display: grid;
     place-items: center;
+    text-align: center;
 }
 
 .link-format{
@@ -88,10 +90,18 @@ header{
 
 }
 
+.playlists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 .sp-1{
     width: 300px;
     height: 380px;
     border-radius: 4%;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .text-box{
     max-width: 800px;

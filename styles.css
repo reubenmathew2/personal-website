@@ -1,20 +1,36 @@
 *{
-    font-family: Inter;
+    font-family: 'DM Sans', 'DM Serif Display', 'Raleway', 'Inter';
    
 }
 body{
-    background-color: #111111;
+    background-color: #0b0c0d;
+    /* background-image: url('img/nyc-bg.jpg'); */
+    /* background-color: #cccccc; */
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    
 }
+
+header{
+    /* font-family: 'DM Serif Display'; */
+    
+}
+
+
 
 .fname{
     color: #FF2A4D;
     font-size: 5em;
-    font-weight: 700;
+    font-weight: 400;
+    /* font: 'DM Serif Display'; */
 }
 .lname{
     color: #EEEEEE;
     font-size: 5em;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .wrapper-title{
@@ -31,7 +47,7 @@ body{
     display: grid;
     place-items: center;
     font-size: 1.5em;
-    color: #EEEEEE;
+    color: #f7f7f7;
  
 }
 
@@ -40,7 +56,7 @@ body{
 }
 
 .blue-color{
-    color: #2ABFFF;
+    color: #f7f7f7;
 }
 .center-text{
     display: grid;
@@ -48,7 +64,7 @@ body{
 }
 
 .link-format{
-    color: #EEEEEE;
+    color: #f7f7f7;
 
 }
 
@@ -57,16 +73,26 @@ body{
 }
 
 .profile-pic{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    border-radius: 4%;
     object-fit: cover;
     margin-bottom: 50px;
     /* border: 2px solid #EEEEEE */
 }
 
+.page-2{
+    display: grid;
+    place-items: center;
+    
 
+}
 
+.sp-1{
+    width: 300px;
+    height: 380px;
+    border-radius: 4%;
+}
 .text-box{
     max-width: 800px;
 }
@@ -78,7 +104,7 @@ body{
     .wrapper-title{
     display: grid;
     place-items: center;
-    font-size: 2vw;
+    font-size: 2.2vw;
     margin-top: 20px;
     margin-bottom: 20px;
     }
